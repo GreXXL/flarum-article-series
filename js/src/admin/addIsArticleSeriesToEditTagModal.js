@@ -1,6 +1,6 @@
-import { extend } from 'flarum/extend';
-import EditTagModal from 'flarum/tags/components/EditTagModal';
-import Stream from 'flarum/utils/Stream';
+import { extend } from 'flarum/common/extend';
+import EditTagModal from 'flarum/tags/admin/components/EditTagModal';
+import Stream from 'flarum/common/utils/Stream';
 import Switch from 'flarum/common/components/Switch';
 
 export default function addIsArticleSeriesToEditTagModal() {
