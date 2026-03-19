@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-article-series.
+ * This file is part of grexxl/flarum-article-series.
  *
  * Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Askvortsov\FlarumArticleSeries;
+namespace GreXXL\FlarumArticleSeries;
 
-use Askvortsov\FlarumArticleSeries\Listener\SaveDiscussionArticleSeriesToDatabase;
-use Askvortsov\FlarumArticleSeries\Listener\SaveTagsIsListeningToDatabase;
+use GreXXL\FlarumArticleSeries\Listener\SaveDiscussionArticleSeriesToDatabase;
+use GreXXL\FlarumArticleSeries\Listener\SaveTagsIsListeningToDatabase;
 use Flarum\Api\Controller\ListDiscussionsController;
 use Flarum\Api\Controller\ShowDiscussionController;
 use Flarum\Api\Serializer\DiscussionSerializer;
@@ -49,7 +49,7 @@ return [
         ->hasOne('articleSeries', TagSerializer::class),
     
     (new Extend\ApiSerializer(BasicDiscussionSerializer::class))
-        // fixes Issues #3 https://github.com/askvortsov1/flarum-article-series/issues/3
+        // fixes Issues #3 https://github.com/GreXXL/flarum-article-series/issues/3
         ->attribute('articleSeriesOrder', function($serializer, $discussion) {
             return $discussion->article_series_order;
         }),

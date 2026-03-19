@@ -16,7 +16,7 @@ function addModal(items, discussion) {
         })
       }
     >
-      {app.translator.trans('askvortsov-article-series.forum.discussion_controls.article_series_button')}
+      {app.translator.trans('grexxl-article-series.forum.discussion_controls.article_series_button')}
     </Button>
   );
 }

@@ -17,7 +17,7 @@ export default class ArticleSeriesModal extends Modal {
   }
 
   title() {
-    return app.translator.trans('askvortsov-article-series.forum.article_series_modal.title');
+    return app.translator.trans('grexxl-article-series.forum.article_series_modal.title');
   }
 
   content() {
@@ -34,11 +34,11 @@ export default class ArticleSeriesModal extends Modal {
       <div className="Modal-body">
         <div className="Form Form--centered">
           <div className="Form-group">
-            <label>{app.translator.trans('askvortsov-article-series.forum.article_series_modal.tag_id_label')}</label>
+            <label>{app.translator.trans('grexxl-article-series.forum.article_series_modal.tag_id_label')}</label>
             <Select value={this.articleSeriesId()} onchange={this.articleSeriesId} options={tagSelectOptions}></Select>
           </div>
           <div className="Form-group">
-            <label>{app.translator.trans('askvortsov-article-series.forum.article_series_modal.order_label')}</label>
+            <label>{app.translator.trans('grexxl-article-series.forum.article_series_modal.order_label')}</label>
             <input className="FormControl" bidi={this.articleSeriesOrder} type="number" />
           </div>
           <div className="Form-group">
@@ -48,7 +48,7 @@ export default class ArticleSeriesModal extends Modal {
                 type: 'submit',
                 loading: this.loading,
               },
-              app.translator.trans('askvortsov-article-series.forum.article_series_modal.submit_button')
+              app.translator.trans('grexxl-article-series.forum.article_series_modal.submit_button')
             )}
           </div>
         </div>

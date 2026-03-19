@@ -7,7 +7,7 @@
  * LICENSE file that was distributed with this source code.
  */
 
-namespace Askvortsov\FlarumArticleSeries\Listener;
+namespace GreXXL\FlarumArticleSeries\Listener;
 
 use Flarum\Tags\Event\Saving;
 use Illuminate\Support\Arr;

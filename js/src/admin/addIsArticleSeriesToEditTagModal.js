@@ -17,7 +17,7 @@ export default function addIsArticleSeriesToEditTagModal() {
             state: this.isArticleSeries(),
             onchange: this.isArticleSeries,
           },
-          app.translator.trans('askvortsov-article-series.admin.edit_tags.is_article_series')
+          app.translator.trans('grexxl-article-series.admin.edit_tags.is_article_series')
         )}
       </div>,
       9

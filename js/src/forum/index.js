@@ -3,7 +3,7 @@ import addArticleList from './addArticleList';
 import addArticlePrevNextButtons from './addArticlePrevNextButtons';
 import addArticleSeriesModal from './addArticleSeriesModal';
 
-app.initializers.add('askvortsov/flarum-article-series', () => {
+app.initializers.add('grexxl/flarum-article-series', () => {
   registerModels();
   addArticleList();
   addArticleSeriesModal();
