@@ -1,6 +1,6 @@
 # Blog Article Series
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/askvortsov/flarum-article-series.svg)](https://packagist.org/packages/askvortsov/flarum-article-series) [![Total Downloads](https://img.shields.io/packagist/dt/askvortsov/flarum-article-series.svg)](https://packagist.org/packages/askvortsov/flarum-article-series)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/grexxl/flarum-article-series.svg)](https://packagist.org/packages/grexxl/flarum-article-series) [![Total Downloads](https://img.shields.io/packagist/dt/grexxl/flarum-article-series.svg)](https://packagist.org/packages/grexxl/flarum-article-series)
 
 A [Flarum](http://flarum.org) extension. Article Series support for Flarum Blog
 
@@ -23,19 +23,19 @@ Live site: [ceramichacker.com](https://ceramichacker.com)
 Install with composer:
 
 ```sh
-composer require askvortsov/flarum-article-series:"*"
+composer require grexxl/flarum-article-series:"*"
 ```
 
 ### Updating
 
 ```sh
-composer update askvortsov/flarum-article-series:"*"
+composer update grexxl/flarum-article-series:"*"
 php flarum migrate
 php flarum cache:clear
 ```
 
 ### Links
 
-- [Packagist](https://packagist.org/packages/askvortsov/flarum-article-series)
-- [GitHub](https://github.com/askvortsov1/flarum-article-series)
+- [Packagist](https://packagist.org/packages/grexxl/flarum-article-series)
+- [GitHub](https://github.com/GreXXL/flarum-article-series)
 - [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)

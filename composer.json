@@ -23,12 +23,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Askvortsov\\FlarumArticleSeries\\": "src/"
+            "GreXXL\\FlarumArticleSeries\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Askvortsov\\FlarumArticleSeries\\Tests\\": "tests/"
+            "GreXXL\\FlarumArticleSeries\\Tests\\": "tests/"
         }
     },
     "extra": {

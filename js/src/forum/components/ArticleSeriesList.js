@@ -14,7 +14,7 @@ export default class ArticleSeriesList extends Component {
     return (
       <div className="BlogArticleList BlogSideWidget">
         <h3>
-          {app.translator.trans('askvortsov-article-series.forum.article_list.title', {
+          {app.translator.trans('grexxl-article-series.forum.article_list.title', {
             series: <Link href={app.route('blogCategory', { slug: articleSeries.slug() })}>{articleSeries.name()}</Link>,
           })}
         </h3>

@@ -19,14 +19,14 @@ export default function addArticlePrevNextButtons() {
           <div />
         ) : (
           <LinkButton icon="fas fa-chevron-left" href={app.route('blogArticle', { id: articlesSorted[i - 1].slug() })}>
-            {app.translator.trans('askvortsov-article-series.forum.article_item.prev_article')}
+            {app.translator.trans('grexxl-article-series.forum.article_item.prev_article')}
           </LinkButton>
         )}
         {i + 1 === articleSeries.articles().length ? (
           <div />
         ) : (
           <LinkButton icon="fas fa-chevron-right" href={app.route('blogArticle', { id: articlesSorted[i + 1].slug() })}>
-            {app.translator.trans('askvortsov-article-series.forum.article_item.next_article')}
+            {app.translator.trans('grexxl-article-series.forum.article_item.next_article')}
           </LinkButton>
         )}
       </div>
